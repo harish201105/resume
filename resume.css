@@ -1,0 +1,122 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Bootstrap overrides */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+.job {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo {
+        margin-top: 20px;
+    }
+}
